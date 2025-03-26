@@ -1,0 +1,21 @@
+HPE Query Workflow - Folder Structure
+
+/Users/vishnuadithya/Documents/HPE/
+├── .env                      # Environment file with API key
+├── q.py                      # Simple query refiner
+├── hpe_document_store.py     # Document storage system
+├── hpe_rag_query_refiner.py  # RAG-enhanced query refiner
+├── hpe_query_workflow.py     # Main workflow script
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project overview
+├── USAGE_GUIDE.md            # Detailed usage instructions
+├── start_workflow.sh         # Easy launcher script
+├── make_executable.sh        # Helper to make scripts executable
+├── hpe_query_workflow.log    # Log file (created when running)
+└── sample_docs/              # Directory for sample documents
+    └── financial_q3_2024.txt # Sample financial document
+└── hpe_docs/                 # Created automatically to store documents
+    ├── financial/            # Financial documents
+    ├── product/              # Product documents 
+    ├── press/                # Press releases
+    └── document_index.json   # Document index file

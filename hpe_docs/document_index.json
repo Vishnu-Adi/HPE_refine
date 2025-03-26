@@ -1,0 +1,137 @@
+{
+  "financial_20250326114545_e6a4f0b0": {
+    "path": "/Users/vishnuadithya/Documents/HPE/hpe_docs/financial/financial_20250326114545_e6a4f0b0.txt",
+    "type": "financial",
+    "added": "2025-03-26T11:45:45.195853",
+    "metadata": {
+      "source_file": "10-K-123124.pdf",
+      "file_size_bytes": 916017,
+      "extraction_date": "2025-03-26T11:45:45.156466",
+      "title": "HPE-10.31.2024-10K - Printer",
+      "author": "anonymous",
+      "creation_date": "D:20250102200558Z",
+      "page_count": 164,
+      "contains_arr": true,
+      "contains_greenlake": true,
+      "contains_intelligent_edge": true,
+      "contains_hpc": true,
+      "document_type": "earnings",
+      "import_timestamp": "2025-03-26 11:45:45"
+    }
+  },
+  "financial_20250326115855_a351f192": {
+    "path": "/Users/vishnuadithya/Documents/HPE/hpe_docs/financial/financial_20250326115855_a351f192.txt",
+    "type": "financial",
+    "added": "2025-03-26T11:58:55.019579",
+    "metadata": {
+      "source_file": "hpe-10k-2023.pdf",
+      "file_size_bytes": 788242,
+      "extraction_date": "2025-03-26T11:58:54.949786",
+      "title": "HPE-10.31.2023-10K Formatted for Proxy",
+      "creation_date": "D:20240125212202Z",
+      "page_count": 154,
+      "contains_arr": true,
+      "contains_greenlake": true,
+      "contains_intelligent_edge": true,
+      "contains_hpc": true,
+      "document_type": "earnings",
+      "import_timestamp": "2025-03-26 11:58:55"
+    }
+  },
+  "financial_20250326115857_b2f584e8": {
+    "path": "/Users/vishnuadithya/Documents/HPE/hpe_docs/financial/financial_20250326115857_b2f584e8.txt",
+    "type": "financial",
+    "added": "2025-03-26T11:58:57.401553",
+    "metadata": {
+      "source_file": "hpe-2023-proxy-statement.pdf",
+      "file_size_bytes": 32597176,
+      "extraction_date": "2025-03-26T11:58:57.339095",
+      "title": "HPE - 2023 Proxy Statement",
+      "creation_date": "D:20230210041646-06'00'",
+      "page_count": 132,
+      "contains_arr": true,
+      "contains_greenlake": true,
+      "contains_intelligent_edge": true,
+      "contains_hpc": true,
+      "document_type": "earnings",
+      "import_timestamp": "2025-03-26 11:58:57"
+    }
+  },
+  "financial_20250326115900_e6a4f0b0": {
+    "path": "/Users/vishnuadithya/Documents/HPE/hpe_docs/financial/financial_20250326115900_e6a4f0b0.txt",
+    "type": "financial",
+    "added": "2025-03-26T11:59:00.768590",
+    "metadata": {
+      "source_file": "10-K-123124.pdf",
+      "file_size_bytes": 916017,
+      "extraction_date": "2025-03-26T11:59:00.729841",
+      "title": "HPE-10.31.2024-10K - Printer",
+      "author": "anonymous",
+      "creation_date": "D:20250102200558Z",
+      "page_count": 164,
+      "contains_arr": true,
+      "contains_greenlake": true,
+      "contains_intelligent_edge": true,
+      "contains_hpc": true,
+      "document_type": "earnings",
+      "import_timestamp": "2025-03-26 11:59:00"
+    }
+  },
+  "financial_20250326115902_d356554b": {
+    "path": "/Users/vishnuadithya/Documents/HPE/hpe_docs/financial/financial_20250326115902_d356554b.txt",
+    "type": "financial",
+    "added": "2025-03-26T11:59:02.874783",
+    "metadata": {
+      "source_file": "hpe-proxy-2024.pdf",
+      "file_size_bytes": 9994091,
+      "extraction_date": "2025-03-26T11:59:02.787851",
+      "title": "2024 Proxy Statement",
+      "creation_date": "D:20240201124403-05'00'",
+      "page_count": 140,
+      "contains_arr": true,
+      "contains_greenlake": true,
+      "contains_intelligent_edge": true,
+      "contains_hpc": true,
+      "document_type": "earnings",
+      "import_timestamp": "2025-03-26 11:59:02"
+    }
+  },
+  "financial_20250326115904_a58b596a": {
+    "path": "/Users/vishnuadithya/Documents/HPE/hpe_docs/financial/financial_20250326115904_a58b596a.txt",
+    "type": "financial",
+    "added": "2025-03-26T11:59:05.000951",
+    "metadata": {
+      "source_file": "proxy-statement-2025.pdf",
+      "file_size_bytes": 12659979,
+      "extraction_date": "2025-03-26T11:59:04.920684",
+      "title": "Proxy Statement 2025",
+      "creation_date": "D:20250203141347-08'00'",
+      "page_count": 148,
+      "contains_arr": true,
+      "contains_greenlake": true,
+      "contains_intelligent_edge": true,
+      "contains_hpc": true,
+      "document_type": "earnings",
+      "import_timestamp": "2025-03-26 11:59:04"
+    }
+  },
+  "financial_20250326115907_d7b897ed": {
+    "path": "/Users/vishnuadithya/Documents/HPE/hpe_docs/financial/financial_20250326115907_d7b897ed.txt",
+    "type": "financial",
+    "added": "2025-03-26T11:59:07.498066",
+    "metadata": {
+      "source_file": "2022-annual-report-form-10k.pdf",
+      "file_size_bytes": 714994,
+      "extraction_date": "2025-03-26T11:59:07.456619",
+      "title": "HPE - 2022 Annual Report Form 10K",
+      "creation_date": "D:20230131173411Z",
+      "page_count": 160,
+      "contains_arr": true,
+      "contains_greenlake": true,
+      "contains_intelligent_edge": true,
+      "contains_hpc": true,
+      "document_type": "earnings",
+      "import_timestamp": "2025-03-26 11:59:07"
+    }
+  }
+}
