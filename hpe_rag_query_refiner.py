@@ -5,7 +5,7 @@ import time
 import logging
 from typing import List, Dict, Any, Optional
 
-from hpe_document_store import HPEDocumentStore
+from src.hpe_document_store import HPEDocumentStore
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -160,85 +160,23 @@ class HPERAGQueryRefiner:
             }
     
     def _create_basic_prompt(self, user_query: str) -> str:
-        """Create a prompt for basic query refinement without context."""
+        """Create a prompt for basic query refinement that outputs a single line refined query."""
         return f"""
-        You are an expert in refining search queries specifically for HPE (Hewlett Packard Enterprise) business and financial data.
-        Your task is to transform the user's raw query into a more effective search query that will yield better results.
-        
-        Guidelines for refinement:
-        
-        1. Financial terminology standardization:
-           - ARR = Annual Recurring Revenue
-           - GreenLake = HPE's as-a-service platform
-           - HPC = High Performance Computing
-           - EPS = Earnings Per Share
-           - ACM = HPE Aruba Networking, HPE Cray, and HPE Athonet
-        
-        2. Quarter and fiscal year standardization:
-           - Use "Q1 FY24" format for fiscal quarters
-           - Convert written quarters ("third quarter") to "Q3"
-           - Convert written years ("twenty twenty four") to "2024"
-           - HPE's fiscal year ends October 31
-        
-        3. Improve query quality:
-           - Fix typos and grammatical errors
-           - Make abbreviations consistent (HPE, AI, etc.)
-           - Replace vague terms with specific ones
-           - Add contextual keywords if needed
-           - Ensure technical accuracy for HPE-specific terms
-        
-        4. Format:
-           - Maintain brevity while improving precision
-           - Use proper capitalization for product names and business segments
-           - Keep financial metrics clearly identifiable
-        
+        Transform ambiguous user queries into precise, contextual questions in a single line.
+        Example: "HPE ARR Q3 2024" → "What is the Annual Recurring Revenue of HPE in the third quarter of 2024?"
         Original Query: "{user_query}"
-        
-        Refined Query (ONLY provide the refined query, no explanations):
+        Refined Query (ONLY provide a single line refined query, no explanations):
         """
     
     def _create_rag_prompt(self, user_query: str, context: str) -> str:
-        """Create a prompt for RAG-enhanced query refinement with context."""
+        """Create a prompt for RAG-enhanced query refinement that outputs a single line refined query."""
         return f"""
-        You are an expert in refining search queries specifically for HPE (Hewlett Packard Enterprise) business and financial data.
-        Your task is to transform the user's raw query into a more effective search query that will yield better results.
-        
-        You have access to relevant HPE context information that can help you understand the specific terminology and details that should be included in the refined query.
-        
-        Guidelines for refinement:
-        
-        1. Financial terminology standardization:
-           - ARR = Annual Recurring Revenue
-           - GreenLake = HPE's as-a-service platform
-           - HPC = High Performance Computing
-           - EPS = Earnings Per Share
-           - ACM = HPE Aruba Networking, HPE Cray, and HPE Athonet
-        
-        2. Quarter and fiscal year standardization:
-           - Use "Q1 FY24" format for fiscal quarters
-           - Convert written quarters ("third quarter") to "Q3"
-           - Convert written years ("twenty twenty four") to "2024"
-           - HPE's fiscal year ends October 31
-        
-        3. Improve query quality:
-           - Fix typos and grammatical errors
-           - Make abbreviations consistent (HPE, AI, etc.)
-           - Replace vague terms with specific ones
-           - Add contextual keywords if needed based on the context information
-           - Ensure technical accuracy for HPE-specific terms
-        
-        4. Format:
-           - Maintain brevity while improving precision
-           - Use proper capitalization for product names and business segments
-           - Keep financial metrics clearly identifiable
-        
-        ===== RELEVANT CONTEXT INFORMATION =====
+        Using the relevant context provided below, transform the ambiguous user query into a single line, precise, and contextual question.
+        Example: "HPE ARR Q3 2024" → "What is the Annual Recurring Revenue of HPE in the third quarter of 2024?"
+        Relevant Context:
         {context}
-        =========================================
-        
         Original Query: "{user_query}"
-        
-        Refined Query (ONLY provide the refined query, no explanations):
+        Refined Query (ONLY provide a single line refined query, no explanations):
         """
 
 

@@ -1,0 +1,47 @@
+# Financial Queries
+What was HPE's Annual Recurring Revenue in Q3 2024?
+How did HPE's revenue grow year over year?
+What is the performance of the Intelligent Edge segment?
+How much cash did HPE return to shareholders?
+What was HPE's EPS in the latest quarter?
+How much did GreenLake revenue grow?
+What is HPE's financial outlook for next quarter?
+What was the free cash flow in fiscal 2023?
+How profitable is HPE's storage business?
+What are HPE's margins compared to competitors?
+
+# Product Queries
+What is HPE GreenLake and how does it work?
+What cloud services does HPE offer?
+What is HPE's strategy for AI?
+How does HPE's networking portfolio compare to Cisco?
+What high-performance computing solutions does HPE have?
+What is HPE doing in the edge computing market?
+How does HPE's storage portfolio work with public clouds?
+What security features are built into HPE products?
+How environmentally sustainable are HPE data centers?
+What partnerships does HPE have with other tech companies?
+
+# Strategic Queries
+What is HPE's long-term business strategy?
+How is HPE positioned in the AI/ML market?
+What acquisitions has HPE made recently?
+How is HPE addressing sustainability challenges?
+What is HPE's approach to hybrid cloud?
+How is HPE competing with public cloud providers?
+What is HPE's geographic revenue distribution?
+What R&D investments is HPE making?
+How is HPE addressing supply chain challenges?
+What leadership changes has HPE made recently?
+
+# Informal and Ambiguous Queries
+hpe earnings last quarter
+greenlake growth
+intelligent edge revenue
+hpe dividends
+storage business performance
+hpe ai strategy
+compute segment trends
+hows hpe doing financially
+best performing hpe segment
+future outlook for hpe
