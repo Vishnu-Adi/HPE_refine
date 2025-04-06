@@ -7,7 +7,7 @@ import hashlib
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 
-from hpe_document_store import HPEDocumentStore
+from src.hpe_document_store import HPEDocumentStore
 
 def scan_directory_for_documents(directory: str) -> List[Dict[str, Any]]:
     """

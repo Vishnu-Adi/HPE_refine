@@ -6,7 +6,7 @@ from typing import List, Dict, Any
 import logging
 import time
 
-from hpe_document_store import HPEDocumentStore
+from src.hpe_document_store import HPEDocumentStore
 from pdf_document_handler import process_pdf_document
 
 # Set up logging

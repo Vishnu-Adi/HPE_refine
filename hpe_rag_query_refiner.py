@@ -5,7 +5,7 @@ import time
 import logging
 from typing import List, Dict, Any, Optional
 
-from src.hpe_document_store import HPEDocumentStore
+from hpe_document_store import HPEDocumentStore
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
